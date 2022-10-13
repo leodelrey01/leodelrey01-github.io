@@ -1,0 +1,233 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>listas.html</title>
+<style type="text/css">
+header  {
+    width: 1200px;
+    height: auto;
+    background-color: #16375E;
+    color: #F6CB59;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+header h1 {
+    color: #CDF3BD;
+    width: 800px;
+    height: 200px;
+    background-color: #E7576E;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 72px;
+}
+footer h6 {
+    height: 40px;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 24px;
+}
+header , nav, main, footer{
+    width: 1200px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main section {
+    width: 800px;
+    background-color: #F9DB8D;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding: 30px;
+    margin-left: auto;
+    color: #1B4677;
+}
+nav {
+    background-color: #88B1E2;
+    height: 50px;
+    color: #FFFFFF;
+}
+main {
+    color: #16375E;
+    background-color: #F9BE84;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+main section ol , main section ul{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer   {
+    background-color: #364F94;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 60px;
+}
+* {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.box_impar {
+    background-color: #ADC0F5;
+}
+#box_unico {
+    background-color: #1F4D85;
+    color: #FFFFFF;
+}
+#lista_1 {
+    list-style-type: upper-latin;
+}
+#lista_2 {
+    list-style-image: url(../Documents/Sitio%20sin%20nombre%202/rosa.png);
+}
+#menu {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#menu li {
+    width: 100px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #E7E9EC;
+    font-size: 18px;
+    color: #112C4C;
+}
+#menu_2 {
+}
+#menu_2 li {
+    list-style-type: none;
+    display: inline-block;
+    background-color: #F2B71A;
+    margin-left: 20px;
+    padding: 10px;
+    margin-right: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Listas en html</h1>
+</header>
+<nav>
+  <ul id="menu">
+    <li><a href="enlaces.html">&nbsp;Enlaces</a></li>
+    <li><a href="listas.html">Listas</a></li>
+    <li><a href="tablas.html">Tablas</a>&nbsp;</li>
+    <li><a href="imagenes.html">Imagenes</a>&nbsp;</li>
+	<li><a href="Video en html.html"> Video</a></li>
+	<li><a href="formatos_texto.html"> Formato T</a></li>
+	<li><a href="audio.html"> Audio</a></li>
+		
+  </ul>
+</nav>
+<main>
+  <section class="box_impar">
+    <h2>Lista Ordenada</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, culpa nemo possimus nisi impedit debitis molestiae corrupti doloremque maxime suscipit aliquam ratione voluptate voluptatibus qui incidunt, ipsa nulla, numquam aspernatur autem similique cum iure reiciendis laborum? Sit impedit nulla expedita, explicabo incidunt tempore! Laudantium deserunt repellendus eos sit minima cupiditate sunt labore corporis, nemo, deleniti voluptates? Enim quam accusamus delectus quo, quaerat molestiae rerum, odit numquam, possimus earum minima non corporis quae quos pariatur. Provident neque consequuntur atque assumenda doloremque quis! Earum nam nulla vel, distinctio amet laborum voluptate. Facilis nulla dicta ab provident modi molestias distinctio similique explicabo iusto.</p>
+	  <ol>
+	  	<li>Puebla</li>
+		<li>Veracruz</li>
+		<li>Tabasco</li>
+		<li>Chiapas</li>
+		<li>Tlaxcala</li>
+	  </ol>
+  </section>
+<!--Shortcut (section>h2+p)*5 genera 5 secciones que contienen un encabezado de nivel 2 y un parrafo-->
+<section>
+	<h2>Lista Desordenada</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptatem ratione aliquam, dicta, sequi dolores, corporis excepturi quis eum ab eveniet a. Nihil dolorum, aliquam! Hic repellendus eos numquam adipisci accusantium vitae incidunt consequatur voluptatem maiores odio magnam debitis minima dolorum totam, asperiores voluptate eligendi officiis quod laboriosam enim? Veritatis repudiandae consectetur placeat, id officiis. Magnam facere sit, doloribus fugit.</p>
+	<ul>
+	<li>Mexico</li>
+	<li>España</li>
+	<li>Estados Unidos</li>
+	<li>Ilatia</li>
+	<li>Brasil</li>
+	</ul>
+</section>
+<section class="box_impar">
+	<h2>Lista Mixta</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni necessitatibus, eos itaque dolorum, impedit non, inventore tempore in hic reiciendis soluta molestias praesentium, nam adipisci sed doloribus! Doloremque dicta nostrum quasi aperiam nulla repellendus hic, voluptatem officia suscipit amet voluptatibus nam consequuntur numquam ea adipisci natus qui dolores nesciunt nobis et, eligendi quo ab soluta veritatis. Nam iusto, voluptates voluptate!</p>
+<ol>
+	<li>Mexico
+		<ul>
+			<li>Puebla
+				<ol>
+					<li>Atixco</li>
+					<li>Tepeaca</li>
+					<li>Acajete</li>
+				</ol>
+			</li>
+			<li>Veracruz</li>
+			<li>Tabasco</li>
+		</ul>
+	</li>	
+	<li>España</li>
+	<li>Estados Unidos</li>
+	<li>Italia
+		<ol>
+			<li>Toscana</li>
+			<li>Roma</li>
+			<li>Venecia</li>
+		</ol>
+	</li>
+	<li>Brasil</li>
+</ol>
+</section>
+<section>
+  <h2>Lista desde dreamweaber</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quos minus vel nisi, maiores illo voluptatibus, non hic ratione error. Totam minus inventore magni. Vitae consequuntur, facilis, molestiae dolore tenetur minus, veritatis ipsam facere repudiandae iure reiciendis necessitatibus ipsa laboriosam voluptates rerum, aspernatur aliquid sequi ea sit! Consequuntur, fugiat, delectus earum ipsa, placeat necessitatibus dolor, iure dicta praesentium porro ullam.</p>
+  <ol id="lista_2">
+    <li>Margaritas</li>
+    <li>Rosas&nbsp;</li>
+    <li>&nbsp;Claveles</li>
+  </ol>
+</section>
+<section>
+  <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint sit et optio accusantium vel suscipit debitis. Voluptatum iusto, laborum. Nihil dolor deleniti, voluptas consectetur neque cupiditate voluptate, exercitationem sequi magnam animi in ad doloribus odio. Alias beatae aspernatur ullam accusamus facilis, quibusdam provident voluptatibus nisi ab expedita eum culpa rerum dolores est neque, laboriosam quam voluptates unde, ipsam veritatis assumenda. Libero expedita sit illo eos veniam et placeat unde, eum voluptas tempore est quam laboriosam distinctio magni corporis incidunt deserunt!</p>
+  <ul id="menu_2">
+    <li><a href="http://www.amazon.com" target="new">Aamazon</a></li>
+    <li><a href="http://www.google.com" target="new">Google&nbsp;</a></li>
+    <li><a href="http://www.apple.com" target="new">Apple&nbsp;</a></li>
+    <li><a href="http://www.zara.com">ZARA</a></li>
+   
+  </ul>
+&nbsp;
+</section>
+<section id="box_unico">
+  <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut alias impedit ducimus mollitia adipisci aspernatur, cupiditate incidunt sit. Dolor perferendis voluptas mollitia quod dolorem quis quae esse facere explicabo blanditiis ipsa necessitatibus repudiandae nemo numquam, magni commodi obcaecati fugit ex voluptates. Explicabo expedita ipsa eveniet, asperiores corrupti animi veritatis tempore!</p>
+  <p>&nbsp;</p>
+  <ul id="lista_1">
+    <li>Maria de los Angeles</li>
+    <li>Martin Lopez</li>
+    <li>Janet Rivera</li>
+    <li>Fernando Montes&nbsp;</li>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut doloribus dolorum, excepturi magni temporibus, impedit placeat inventore sed, repudiandae tenetur alias nisi aliquam culpa assumenda animi, deleniti earum voluptate asperiores.</p>
+    <a href="http://www.marykay.com.mx"><img src="../Documents/Sitio sin nombre 2/rosa-2.png" width="64" height="64" alt=""/></a>
+  </ul>
+</section>
+</main>
+<footer>
+  <h6>Elaborado por Leopoldo Nuñez Huesca</h6>
+</footer>
+</body>
+</html>
